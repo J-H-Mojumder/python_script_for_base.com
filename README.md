@@ -29,7 +29,7 @@ outputsheet.write("A1", "Category")
 outputsheet.write("B1", "Product Name")
 outputsheet.write("C1", "Link")
 ```
-The output file will be populated with the thubnail's detail links. From there the 'base_info_collector.py' file will take over.
+The output file will be populated with the thumbnail's detail links. From there the 'base_info_collector.py' file will take over.
 
 ### Please check out the 'base_info_collector.py' file
 
