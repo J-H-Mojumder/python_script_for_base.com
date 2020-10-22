@@ -13,7 +13,7 @@ url = "https://www.base.com/blu-ray/pg735/bn10007132/products.htm?filter=a%3a14%
 I have used the code part written below to give the driver time to decide if the page has fully been loaded or it needs to take a few seconds (maximum 8 seconds) of time to wait until the page is loaded.
 
 ``` python
-    idriver.implicitly_wait(8)
+    driver.implicitly_wait(8)
 ```
 
 One have to input the excel file name manually in the below mentioned part of the code.
